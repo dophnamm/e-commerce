@@ -1,0 +1,22 @@
+.pay {
+	&__price {
+		font-size: 18px;
+		font-weight: bold;
+		color: #ff3945;
+	}
+
+	&__price-provisional {
+		border-bottom: 2px solid #f4f4f4;
+	}
+
+	&__button {
+		margin-top: 0.5rem !important;
+		background-color: #ff3945 !important;
+		text-transform: capitalize !important;
+		color: white !important;
+
+		&:hover {
+			opacity: 0.8;
+		}
+	}
+}

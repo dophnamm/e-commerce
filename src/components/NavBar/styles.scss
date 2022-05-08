@@ -1,0 +1,12 @@
+.nav__link {
+	color: white;
+	padding: 0 0.5rem;
+
+	&.active {
+		button {
+			span {
+				background-color: rgba(0, 0, 0, 0.1);
+			}
+		}
+	}
+}

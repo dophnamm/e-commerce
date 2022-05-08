@@ -1,0 +1,47 @@
+.shopping {
+	&__container {
+		h1 {
+			text-align: center;
+			margin: 50px 0;
+		}
+	}
+
+	&__hero {
+		position: relative;
+
+		img {
+			width: 100%;
+		}
+
+		&:hover {
+			.shopping__button-start,
+			.shopping__overlay {
+				visibility: visible;
+				opacity: 1;
+			}
+		}
+	}
+
+	&__button-start {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		visibility: hidden;
+		opacity: 0;
+		transition: visibility 0.25s linear, opacity 0.25s linear;
+		z-index: 10;
+	}
+
+	&__overlay {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		background-color: rgba(0, 0, 0, 0.5);
+		visibility: hidden;
+		opacity: 0;
+		transition: visibility 0.25s linear, opacity 0.25s linear;
+	}
+}

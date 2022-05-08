@@ -1,0 +1,24 @@
+.product {
+	transition: all 0.25s ease;
+	&__thumbnail {
+		width: 100%;
+	}
+
+	&__name {
+		font-size: 16px !important;
+		text-transform: capitalize !important;
+	}
+
+	&__price {
+		font-size: 14px !important;
+		span {
+			margin-left: 0.5rem;
+			font-weight: 500;
+		}
+	}
+
+	&:hover {
+		box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+		cursor: pointer;
+	}
+}

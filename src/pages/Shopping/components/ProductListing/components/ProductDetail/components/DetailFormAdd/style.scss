@@ -1,0 +1,19 @@
+@use 'styles/' as *;
+
+.form {
+	&__add {
+		margin: 0.5rem 0 !important;
+		padding: 0.5rem 0;
+	}
+
+	&__button-add {
+		display: block !important;
+		background-color: #ff3945 !important;
+		color: white !important;
+		width: 300px !important;
+
+		&:hover {
+			opacity: 0.8;
+		}
+	}
+}

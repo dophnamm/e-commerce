@@ -1,0 +1,28 @@
+@use 'styles/' as *;
+
+.detail {
+	&__card-price {
+		box-shadow: none !important;
+		background-color: #fafafa !important;
+		padding: 1rem;
+		margin: 1rem 0;
+	}
+
+	&__price {
+		display: inline !important;
+		span {
+			font-size: 18px;
+			font-weight: normal !important;
+		}
+	}
+
+	&__origin {
+		margin: 0 1rem;
+		text-decoration: line-through;
+	}
+}
+
+.line {
+	width: 100%;
+	border-bottom: 1px solid $backgroundColor;
+}
